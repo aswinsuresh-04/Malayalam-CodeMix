@@ -5,7 +5,7 @@ from nltk.corpus import words
 english = set(w.lower() for w in words.words())
 english |= {"trailer", "like", "comment", "fans", "super", "superb", "mass", "love", "bgm", "movies", "views"}
 
-ml_fix = {"pole", "undo", "pani", "alle", "ulla", "kola", "ne", "nu"}
+ml_fix = {"pole", "undo", "pani", "alle", "ulla", "kola", "ne", "nu", "da", "di", "eda", "edi"}
 
 names = {"manju", "warrier", "mohanlal", "mammootty", "raju", "suraj",
          "sukumaran", "lucifer", "karnataka", "india", "malayalam", "raja",
