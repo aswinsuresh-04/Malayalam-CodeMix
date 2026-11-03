@@ -1,7 +1,7 @@
 import re
 import joblib
 
-MODEL_PATH = "results/model_norm.pkl"        # change to results/model_norm.pkl if Step 2 was better
+MODEL_PATH = "results/model_noisy.pkl"        # change to results/model_norm.pkl if Step 2 was better
 model = joblib.load(MODEL_PATH)
 
 NAMES = {"ML": "Malayalam", "EN": "English", "NE": "Name", "OTHER": "Other"}
