@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 data/*
 !data/gold_fixed.csv
+results/model.pkl
+results/model_norm.pkl
