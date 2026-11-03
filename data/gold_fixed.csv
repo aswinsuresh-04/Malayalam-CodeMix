@@ -69,7 +69,7 @@ sent_id,word,label
 1235,irangatte,ML
 1418,Alla,ML
 1418,chettanmare,ML
-1418,Mammootty,ML
+1418,Mammootty,NE
 1418,mathramano,ML
 1418,abhinayichathu,ML
 1418,Unni,NE
@@ -267,7 +267,7 @@ sent_id,word,label
 6481,masssss,ML
 6629,mammootty,NE
 6629,anna,EN
-6629,telugu,EN
+6629,telugu,NE
 6629,r,OTHER
 6629,dhakar,ML
 6629,ivi,ML
