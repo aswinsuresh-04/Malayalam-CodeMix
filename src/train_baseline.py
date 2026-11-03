@@ -16,6 +16,9 @@ model = make_pipeline(
 )
 model.fit(train["word"], train["label"])
 
+import joblib
+joblib.dump(model, "results/model.pkl")
+
 pred = model.predict(gold["word"])
 print("Accuracy:", round(accuracy_score(gold["label"], pred), 3))
 print(classification_report(gold["label"], pred, zero_division=0))
